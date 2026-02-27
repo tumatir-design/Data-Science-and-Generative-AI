@@ -1,0 +1,6 @@
+### learning points ###
+Train-test split evaluates generalization.
+Linear regression is supervised learning.
+Overfitting means good train but poor test performance.
+Accuracy measures classification performance.
+Cross-validation improves model evaluation.
