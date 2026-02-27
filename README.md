@@ -1,2 +1,2 @@
-# Data-Science-and-Generative-AI
-Data-Science-and-Generative-AI
+#This is for Quick revision pointers:
+
