@@ -4,3 +4,10 @@ Linear regression is supervised learning.
 Overfitting means good train but poor test performance.
 Accuracy measures classification performance.
 Cross-validation improves model evaluation.
+** 3/1 notes ***
+Unsupervised learning groups data without labels.
+K-Means is a popular clustering algorithm.
+PCA reduces dimensionality preserving variance.
+Spam classification is supervised, unlike clustering or segmentation.
+Silhouette Score evaluates clustering quality without labels.
+
