@@ -1,3 +1,26 @@
+CREATE DATABASE employee;
+
+use employee;
+
+SELECT * FROM employee.data_science_team;
+SELECT * FROM employee.emp_record_table;
+SELECT * FROM employee.proj_table;
+
+
+-- query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT 
+from the employee record table, 
+and make a list of employees and details of their department. 
+
+-- query to list only those employees who have someone reporting to them. 
+SELECT 
+    e.EMP_ID AS 'Manager_ID',
+    COUNT(e.EMP_ID) AS 'NumberofReportees' --show the number of reporters 
+    emp_record_table e
+        JOIN
+    emp_record_table m ON e.EMP_ID = m.MANAGER_ID
+GROUP BY 1
+ORDER BY 1;
+
 --in order to Identify Maximum Salary
 SELECT MAX(SALARY) AS Max_Salary 
 FROM emp_record_table;
